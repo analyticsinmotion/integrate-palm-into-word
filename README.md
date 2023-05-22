@@ -1,1 +1,1 @@
-# Integrate PaLM into Word
+# :palm_tree: Integrate PaLM into Word
