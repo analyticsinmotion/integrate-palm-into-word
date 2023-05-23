@@ -1,3 +1,4 @@
+![analytics-in-motion-banner-integrate-palm-into-word](https://github.com/analyticsinmotion/integrate-palm-into-word/assets/52817125/033bcd13-2311-40a3-a2e7-0d08f0d72689)
 
 <h1 align="center">:palm_tree: Integrate PaLM into Word</h1>
 
