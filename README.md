@@ -12,14 +12,50 @@
 ![Microsoft Word](https://img.shields.io/badge/Microsoft_Word-2B579A?logo=microsoft-word&logoColor=white)&nbsp;&nbsp;
   
 </div>
-
 <!-- badges: end -->
 
 <!-- DESCRIPTION -->
 ## Description
-
 Rapidly test, utilize, and compare Google's latest language model **PaLM2** in Microsoft Word. PaLM 2 is a state-of-the-art language model that boasts upgraded features in terms of its multilingual capacity, reasoning ability, and coding capabilities.
 By integrating PaLM 2 into Microsoft Word, this project aims to make the latest in Google's advanced AI capabilities directly accessible and easy to use.
-
 <br /><br />
+
+<!-- GETTING STARTED -->
+## Getting Started
+### Dependencies
+- Requires an MakerSuite API Key (apply for the waitlist here: <a href="https://makersuite.google.com/app/apikey">https://makersuite.google.com/app/apikey</a>)
+- Requires Microsoft Windows 10/11 (<a href="https://www.microsoft.com/en-au/windows">https://www.microsoft.com/en-au/windows</a>)
+- Requires Microsoft Word 365 (<a href="https://www.microsoft.com/en-us">https://www.microsoft.com/en-us</a>)
+
+Please be aware that access to PaLM API and Makersuite are currently only available in the *United States*. To monitor available regions please check here: [https://developers.generativeai.google/available_regions](https://developers.generativeai.google/available_regions)
+
+In addition, the PaLM API is currently in public preview. Any external or production applications will therefore not be supported. Please read the [PaLM API and MakerSuite Additional Terms of Service](https://developers.generativeai.google/terms) for more information. 
+<br /><br />
+
+<!-- Installation -->
+## Installation
+
+There are 4 basic steps in order to add PaLM's Text Generation capability into Microsoft Word:
+  1. Enable the Developer Tab
+  2. Import the VBA script files
+  3. Create the PaLM Text Completion button
+  4. Add your MakerSuite API Key
+
+Each of these steps are fully outlined below. 
+<br /><br />
+### Enable the Developer Tab
+
+The Developer tab isn't displayed by default, but you can add it to the ribbon.
+
+**Step 1** - On the File tab, go to Options > Customize Ribbon.
+
+**Step 2** - Under Customize the Ribbon and under Main Tabs, select the Developer check box.
+
+<img src=".github/assets/images/enable-developer-tab-highlighted.png" width=100% height=100%>
+<br />
+
+The latest instructions to enable the Developer Tab from Microsoft can be found here: 
+<a href="https://support.microsoft.com/en-us/office/show-the-developer-tab-in-word-e356706f-1891-4bb8-8d72-f57a51146792">https://support.microsoft.com/en-us/office/show-the-developer-tab-in-word-e356706f-1891-4bb8-8d72-f57a51146792</a>
+<br /><br />
+
 
