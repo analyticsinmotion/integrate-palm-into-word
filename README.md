@@ -14,3 +14,12 @@
 </div>
 
 <!-- badges: end -->
+
+<!-- DESCRIPTION -->
+## Description
+
+Rapidly test, utilize, and compare Google's latest language model **PaLM2** in Microsoft Word. PaLM 2 is a state-of-the-art language model that boasts upgraded features in terms of its multilingual capacity, reasoning ability, and coding capabilities.
+By integrating PaLM 2 into Microsoft Word, this project aims to make the latest in Google's advanced AI capabilities directly accessible and easy to use.
+
+<br /><br />
+
