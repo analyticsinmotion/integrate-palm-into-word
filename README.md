@@ -29,7 +29,7 @@ By integrating PaLM 2 into Microsoft Word, this project aims to make the latest 
 
 Please be aware that access to PaLM API and Makersuite are currently only available in the *United States*. To monitor available regions please check here: [https://developers.generativeai.google/available_regions](https://developers.generativeai.google/available_regions)
 
-In addition, the PaLM API is currently in public preview. Any external or production applications will therefore not be supported. Please read the [PaLM API and MakerSuite Additional Terms of Service](https://developers.generativeai.google/terms) for more information. 
+In addition, the PaLM API is currently in public preview. Please read the [PaLM API and MakerSuite Additional Terms of Service](https://developers.generativeai.google/terms) for more information. 
 <br /><br />
 
 <!-- Installation -->
@@ -50,12 +50,16 @@ The Developer tab isn't displayed by default, but you can add it to the ribbon.
 **Step 1** - On the File tab, go to Options > Customize Ribbon.
 
 **Step 2** - Under Customize the Ribbon and under Main Tabs, select the Developer check box.
-
+<details>
+  <summary>View Screenshot</summary>
+  
 <img src=".github/assets/images/enable-developer-tab-highlighted.png" width=100% height=100%>
 <br />
-
+</details>
 The latest instructions to enable the Developer Tab from Microsoft can be found here: 
 <a href="https://support.microsoft.com/en-us/office/show-the-developer-tab-in-word-e356706f-1891-4bb8-8d72-f57a51146792">https://support.microsoft.com/en-us/office/show-the-developer-tab-in-word-e356706f-1891-4bb8-8d72-f57a51146792</a>
 <br /><br />
+
+
 
 
