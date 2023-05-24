@@ -27,7 +27,7 @@ By integrating PaLM 2 into Microsoft Word, this project aims to make the latest 
 - Requires Microsoft Windows 10/11 (<a href="https://www.microsoft.com/en-au/windows">https://www.microsoft.com/en-au/windows</a>)
 - Requires Microsoft Word 365 (<a href="https://www.microsoft.com/en-us">https://www.microsoft.com/en-us</a>)
 
-Please be aware that access to PaLM API and Makersuite are currently only available in the *United States*. To monitor available regions please check here: [https://developers.generativeai.google/available_regions](https://developers.generativeai.google/available_regions)
+Please be aware that access to PaLM API and Makersuite are currently only available in the *United States*. Users will receive a 400:Bad Request message should they try to use this project outside the available regions. To monitor available regions please check here: [https://developers.generativeai.google/available_regions](https://developers.generativeai.google/available_regions)
 
 In addition, the PaLM API is currently in public preview. Please read the [PaLM API and MakerSuite Additional Terms of Service](https://developers.generativeai.google/terms) for more information. 
 <br /><br />
