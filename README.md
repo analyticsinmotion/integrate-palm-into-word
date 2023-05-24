@@ -1,4 +1,4 @@
-![analytics-in-motion-banner-integrate-palm-into-word](https://github.com/analyticsinmotion/integrate-palm-into-word/assets/52817125/033bcd13-2311-40a3-a2e7-0d08f0d72689)
+<img src=".github/assets/images/analytics-in-motion-banner-integrate-palm-into-word.svg" width=100% height=100%>
 
 <h1 align="center">Integrate PaLM into Word</h1>
 
@@ -18,6 +18,13 @@
 Rapidly test, utilize, and compare Google's latest language model **PaLM2** in Microsoft Word. PaLM 2 is a state-of-the-art language model that boasts upgraded features in terms of its multilingual capacity, reasoning ability, and coding capabilities.
 By integrating PaLM 2 into Microsoft Word, this project aims to make the latest in Google's advanced AI capabilities directly accessible and easy to use.
 <br /><br />
+
+
+
+https://github.com/analyticsinmotion/integrate-palm-into-word/assets/52817125/d0aa74e1-db76-4e3a-becc-5fe3642d1360
+
+<br />
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
