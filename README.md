@@ -5,9 +5,8 @@
 <!-- badges: start -->
 <div align="center">
   
+![Experimental](https://img.shields.io/badge/experimental-yes-brightgreen.svg)&nbsp;&nbsp;
 [![MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/analyticsinmotion/add-gpt-chatbot-to-microsoft-word/blob/main/LICENSE.md)&nbsp;&nbsp;
-![](https://img.shields.io/badge/Maintained%3F-yes-green.svg)&nbsp;&nbsp;
-[![Lifecycle:Beta](https://img.shields.io/badge/Lifecycle-Beta-ff7f2a)](https://shields.io/)&nbsp;&nbsp;
 ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white)&nbsp;&nbsp;
 ![Microsoft Word](https://img.shields.io/badge/Microsoft_Word-2B579A?logo=microsoft-word&logoColor=white)&nbsp;&nbsp;
   
@@ -201,4 +200,13 @@ Please follow the best practices guide for API security from Google:
 <a href="https://support.google.com/googleapi/answer/6310037?hl=en">https://support.google.com/googleapi/answer/6310037?hl=en</a>
 
 
-<br /><br />
+<br />
+
+<!-- Disclaimers -->
+## Disclaimers
+- This project/repository is an independent initiative created for testing purposes and convenience.
+- This project/repository is not affiliated with, endorsed, approved or sponsored by Microsoft Corporation, its subsidiaries or any other affiliates. 
+- This project/repository is not affiliated with, endorsed, approved or sponsored by Alphabet Inc., its subsidiary Google or any other affiliates.
+- This project is experimental and contains API's and code that are not ready for any type of Production usage. Support and/or new releases may be limited.
+
+<br />
