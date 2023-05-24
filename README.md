@@ -27,7 +27,7 @@ By integrating PaLM 2 into Microsoft Word, this project aims to make the latest 
 - Requires Microsoft Windows 10/11 (<a href="https://www.microsoft.com/en-au/windows">https://www.microsoft.com/en-au/windows</a>)
 - Requires Microsoft Word 365 (<a href="https://www.microsoft.com/en-us">https://www.microsoft.com/en-us</a>)
 
-Please be aware that access to PaLM API and Makersuite are currently only available in the *United States*. Users will receive a 400:Bad Request message should they try to use this project outside the available regions. To monitor available regions please check here: [https://developers.generativeai.google/available_regions](https://developers.generativeai.google/available_regions)
+Please be aware that access to PaLM API and Makersuite are currently only available in the *United States*. Users will receive a "400:Bad Request" message should they try to use this project outside the available regions. To monitor available regions please check here: [https://developers.generativeai.google/available_regions](https://developers.generativeai.google/available_regions)
 
 In addition, the PaLM API is currently in public preview. Please read the [PaLM API and MakerSuite Additional Terms of Service](https://developers.generativeai.google/terms) for more information. 
 <br /><br />
@@ -182,9 +182,9 @@ After the preceding steps have been completed the Microsoft Word screen should l
 
 This application uses the following Pathways Language Model:
  
-| Generation  | Model | Description | Max input tokens | Max output tokens |
-| ------------- | ------------- |------------- | ------------- | ------------- |
-| PaLM 2  | text-bison-001 | Model targeted for text generation | 8,196 tokens | 1,024 tokens |
+| Generation  | Model | Description | Max Input | Max Output | Temperature | top_p | top_k |
+| ------------- | ------------- |------------- | ------------- | ------------- | :-----------: | :-----------: | :-----------: |
+| PaLM 2  | text-bison-001 | Model targeted for text generation | 8,196 tokens | 1,024 tokens | 0.7 | 0.95 | 40 |
 
 Further information about this model can be found here: 
 - <a href="https://blog.google/technology/ai/google-palm-2-ai-large-language-model/">https://blog.google/technology/ai/google-palm-2-ai-large-language-model/</a>
