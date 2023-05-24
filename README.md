@@ -75,15 +75,16 @@ Keep the location of where the file is saved as you will need it later.<br />
 **Step 3** - On the File tab, go to Import File...
 
 <img src=".github/assets/images/visual-basic-file-import-section.png" width=100% height=100%>
-<br />
 
+<br />
+&nbsp;
 
 **Step 4** - Select the ```PalmText.bas``` file and click Open
 </details>
 
 
-
-### Create the PaLM Text Completion button
+<details>
+  <summary><h3>&nbsp;Create the PaLM Text Completion button</h3></summary>
 
 *Please Note:* This project uses the same ribbon as three of our other projects: 
  - **Add ChatGPT to Microsoft Word** - project can be found <a href="https://github.com/analyticsinmotion/add-chatgpt-to-microsoft-word">here</a> 
@@ -101,36 +102,103 @@ If you have have already added any one of these projects into Microsoft Word you
 
 <img src=".github/assets/images/options-customize-ribbon-new-tab.png" width=40% height=40%>
 <br />
+&nbsp;
 
  **Step 2** - Rename the New Tab to **AI Assistant**
 
 <img src=".github/assets/images/options-customize-ribbon-rename-tab.png" width=35% height=35%>
 <br />
+&nbsp;
 
 **Step 3** - Rename New Group (Custom) to **PaLM**
 
 <img src=".github/assets/images/rename-new-group.png" width=35% height=35%>
 <br />
+&nbsp;
 
 **Step 4** - Select Macros in the Choose Commands from dropdown box
 
 <img src=".github/assets/images/choose-commands-from-macros.png" width=35% height=35%>
 <br />
+&nbsp;
 
 **Step 5** - Select the PaLMText Macro and click Add >>
 
 <img src=".github/assets/images/add-the-macro-into-new-group.png" width=75% height=75%>
 <br />
+&nbsp;
 
 **Step 6** - Rename button from *Normal.PalmText.PalmText* to **Text Completion**, select a Symbol and click OK
 
 <img src=".github/assets/images/rename-button.png" width=35% height=35%>
 <br />
-
+&nbsp;
 
 After the preceding steps have been completed the Microsoft Word screen should look like the following:
 
-<img src=".github/assets/images/screen-after-chatbot-buttons-added.png" width=100% height=100%>
+<img src=".github/assets/images/screen-after-button-added.png" width=100% height=100%>
+<br />
+</details>
+
+
+
+
+
+<details>
+  <summary><h3>&nbsp;Add your MakerSuite API Key</h3></summary>
+
+**Step 1** - Open the Start menu and start typing "environment variables". When the best match appears click "Edit the system environment variables" result.
+
+<img src=".github/assets/images/add-env-var-step-1.png" width=75% height=75%>
+<br />
+&nbsp;
+
+**Step 2** - Click the "Environment variables" button under the "Advanced" tab.
+
+<img src=".github/assets/images/add-env-var-step-2.png" width=50% height=50%>
+<br />
+&nbsp;
+
+**Step 3** - Create a new user variable by clicking "New" under the "User Variables" section.
+
+<img src=".github/assets/images/add-env-var-step-3.png" width=50% height=50%>
+<br />
+&nbsp;
+
+**Step 4** - Type the variable name **GOOGLE_PALM_API_KEY** in the first field and your MakerSuite API KEY in the variable value field. Then click OK.
+
+<img src=".github/assets/images/add-env-var-step-4.png" width=50% height=50%>
+<br />
+&nbsp;
+
+**Step 5** - **IMPORTANT** You must restart Windows to apply the new environment variable
+</details>
+
 <br />
 
 
+<!-- AI Model -->
+## AI Model Information
+
+This application uses the following Pathways Language Model:
+ 
+| Generation  | Model | Description | Max input tokens | Max output tokens |
+| ------------- | ------------- |------------- | ------------- | ------------- |
+| PaLM 2  | text-bison-001 | Model targeted for text generation | 8,196 tokens | 1,024 tokens |
+
+Further information about this model can be found here: 
+- <a href="https://blog.google/technology/ai/google-palm-2-ai-large-language-model/">https://blog.google/technology/ai/google-palm-2-ai-large-language-model/</a>
+- <a href="https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html">https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html</a>
+<br /><br />
+
+<!-- Best Practices for API Key Safety -->
+## Best Practices for API Key Safety
+
+Your MakerSuite API KEY key/s should be kept secure and private at all times.
+
+Please follow the best practices guide for API security from Google:
+<br />
+<a href="https://support.google.com/googleapi/answer/6310037?hl=en">https://support.google.com/googleapi/answer/6310037?hl=en</a>
+
+
+<br /><br />
