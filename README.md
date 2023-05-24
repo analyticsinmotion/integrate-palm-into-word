@@ -22,7 +22,11 @@ By integrating PaLM 2 into Microsoft Word, this project aims to make the latest 
 
 
 
-https://github.com/analyticsinmotion/integrate-palm-into-word/assets/52817125/315cd64c-47da-4252-8b1b-d2f55285edbc
+
+
+https://github.com/analyticsinmotion/integrate-palm-into-word/assets/52817125/720592f1-8ce8-4249-96a6-fa5c8b0eac1a
+
+
 
 
 
