@@ -41,26 +41,27 @@ There are 4 basic steps in order to add PaLM's Text Generation capability into M
   3. Create the PaLM Text Completion button
   4. Add your MakerSuite API Key
 
-Each of these steps are fully outlined below. 
-<br /><br />
-### Enable the Developer Tab
+Each of these steps are fully outlined in the expandable sections below. 
+
+<details>
+  <summary><h3>&nbsp;Enable the Developer Tab</h3></summary>
 
 The Developer tab isn't displayed by default, but you can add it to the ribbon.
 
 **Step 1** - On the File tab, go to Options > Customize Ribbon.
 
 **Step 2** - Under Customize the Ribbon and under Main Tabs, select the Developer check box.
-<details>
-  <summary><i>View Screenshot</i></summary>
+
   
-<img src=".github/assets/images/enable-developer-tab-highlighted.png" width=100% height=100%>
+<img src=".github/assets/images/enable-developer-tab-highlighted.png" width=80% height=80%>
 <br />
-</details>
+
 The latest instructions to enable the Developer Tab from Microsoft can be found here: 
 <a href="https://support.microsoft.com/en-us/office/show-the-developer-tab-in-word-e356706f-1891-4bb8-8d72-f57a51146792">https://support.microsoft.com/en-us/office/show-the-developer-tab-in-word-e356706f-1891-4bb8-8d72-f57a51146792</a>
-<br /><br />
+</details>
 
-### Import the VBA script file
+<details>
+  <summary><h3>&nbsp;Import the VBA script file</h3></summary>
 
 **Step 1** - Download and Save the latest ```PalmText.bas``` file from the src/windows folder in this repository.
 <br />
@@ -68,21 +69,68 @@ The latest instructions to enable the Developer Tab from Microsoft can be found 
 Keep the location of where the file is saved as you will need it later.<br />
 
 **Step 2** - On the Developer tab, click the Visual Basic button.
-<details>
-  <summary><i>View Screenshot</i></summary>
 <img src=".github/assets/images/developer-tab-visual-basic.png" width=100% height=100%>
 <br />
-</details>
 
 **Step 3** - On the File tab, go to Import File...
-<details>
-  <summary><i>View Screenshot</i></summary>
+
 <img src=".github/assets/images/visual-basic-file-import-section.png" width=100% height=100%>
 <br />
-</details>
+
 
 **Step 4** - Select the ```PalmText.bas``` file and click Open
+</details>
+
+
+
+### Create the PaLM Text Completion button
+
+*Please Note:* This project uses the same ribbon as three of our other projects: 
+ - **Add ChatGPT to Microsoft Word** - project can be found <a href="https://github.com/analyticsinmotion/add-chatgpt-to-microsoft-word">here</a> 
+ - **Create Images with DALL·E in Microsoft Word** - project can be found <a href="https://github.com/analyticsinmotion/create-images-with-dall-e-in-microsoft-word">here</a> 
+ - **Add GPT Chatbot to Microsoft Word** - project can be found <a href="https://github.com/analyticsinmotion/add-gpt-chatbot-to-microsoft-word">here</a>
+
+If you have have already added any one of these projects into Microsoft Word you can start at Step 3 of this section.
 <br /><br />
 
+**Step 1** - Add a new tab
+<br />
+  - On the File tab, go to Options > Customize Ribbon
+  - Click New Tab
+<br />
+
+<img src=".github/assets/images/options-customize-ribbon-new-tab.png" width=40% height=40%>
+<br />
+
+ **Step 2** - Rename the New Tab to **AI Assistant**
+
+<img src=".github/assets/images/options-customize-ribbon-rename-tab.png" width=35% height=35%>
+<br />
+
+**Step 3** - Rename New Group (Custom) to **PaLM**
+
+<img src=".github/assets/images/rename-new-group.png" width=35% height=35%>
+<br />
+
+**Step 4** - Select Macros in the Choose Commands from dropdown box
+
+<img src=".github/assets/images/choose-commands-from-macros.png" width=35% height=35%>
+<br />
+
+**Step 5** - Select the PaLMText Macro and click Add >>
+
+<img src=".github/assets/images/add-the-macro-into-new-group.png" width=75% height=75%>
+<br />
+
+**Step 6** - Rename button from *Normal.PalmText.PalmText* to **Text Completion**, select a Symbol and click OK
+
+<img src=".github/assets/images/rename-button.png" width=35% height=35%>
+<br />
+
+
+After the preceding steps have been completed the Microsoft Word screen should look like the following:
+
+<img src=".github/assets/images/screen-after-chatbot-buttons-added.png" width=100% height=100%>
+<br />
 
 
