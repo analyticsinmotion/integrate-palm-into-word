@@ -37,7 +37,7 @@ In addition, the PaLM API is currently in public preview. Please read the [PaLM 
 
 There are 4 basic steps in order to add PaLM's Text Generation capability into Microsoft Word:
   1. Enable the Developer Tab
-  2. Import the VBA script files
+  2. Import the VBA script file
   3. Create the PaLM Text Completion button
   4. Add your MakerSuite API Key
 
@@ -51,7 +51,7 @@ The Developer tab isn't displayed by default, but you can add it to the ribbon.
 
 **Step 2** - Under Customize the Ribbon and under Main Tabs, select the Developer check box.
 <details>
-  <summary>View Screenshot</summary>
+  <summary><i>View Screenshot</i></summary>
   
 <img src=".github/assets/images/enable-developer-tab-highlighted.png" width=100% height=100%>
 <br />
@@ -60,6 +60,29 @@ The latest instructions to enable the Developer Tab from Microsoft can be found 
 <a href="https://support.microsoft.com/en-us/office/show-the-developer-tab-in-word-e356706f-1891-4bb8-8d72-f57a51146792">https://support.microsoft.com/en-us/office/show-the-developer-tab-in-word-e356706f-1891-4bb8-8d72-f57a51146792</a>
 <br /><br />
 
+### Import the VBA script file
+
+**Step 1** - Download and Save the latest ```PalmText.bas``` file from the src/windows folder in this repository.
+<br />
+
+Keep the location of where the file is saved as you will need it later.<br />
+
+**Step 2** - On the Developer tab, click the Visual Basic button.
+<details>
+  <summary><i>View Screenshot</i></summary>
+<img src=".github/assets/images/developer-tab-visual-basic.png" width=100% height=100%>
+<br />
+</details>
+
+**Step 3** - On the File tab, go to Import File...
+<details>
+  <summary><i>View Screenshot</i></summary>
+<img src=".github/assets/images/visual-basic-file-import-section.png" width=100% height=100%>
+<br />
+</details>
+
+**Step 4** - Select the ```PalmText.bas``` file and click Open
+<br /><br />
 
 
 
