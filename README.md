@@ -5,10 +5,12 @@
 <!-- badges: start -->
 <div align="center">
   
-![Experimental](https://img.shields.io/badge/experimental-yes-brightgreen.svg)&nbsp;&nbsp;
+<!-- ![Experimental](https://img.shields.io/badge/experimental-yes-brightgreen.svg)&nbsp;&nbsp;-->
 [![MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/analyticsinmotion/integrate-palm-into-word/blob/main/LICENSE)&nbsp;&nbsp;
 ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white)&nbsp;&nbsp;
 ![Microsoft Word](https://img.shields.io/badge/Microsoft_Word-2B579A?logo=microsoft-word&logoColor=white)&nbsp;&nbsp;
+[![Google](https://img.shields.io/badge/Google-4285F4?style=badge&logo=google&logoColor=white)](https://ai.google/discover/palm2)&nbsp;&nbsp;
+[![Analytics in Motion](https://raw.githubusercontent.com/analyticsinmotion/.github/main/assets/images/analytics-in-motion-github-badge-rounded.svg)](https://www.analyticsinmotion.com)&nbsp;&nbsp;
   
 </div>
 <!-- badges: end -->
